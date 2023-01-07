@@ -11,19 +11,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;     /* deixa os elementos um embaixo do outro */
+    background-color: #eee;
+    border: 3px solid #bbb;
+    width: 230px;
+    border-radius: 5px;
 }
 
+/* titulo */
 .div_nome {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 220px;
 }
 
-.div_display {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .div_teclas {
     display: flex;
@@ -50,4 +51,22 @@
 .teclaOp {      /* 'style' para teclas de operção(sinais) */
     background-color: #f44 !important;
     border: #800 !important;
+}
+
+/* display */
+
+.div_display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+}
+
+.display {
+    width: 220px;
+    background-color: #8a8;
+    text-align: right;
+    padding: 5px;
+    font-family: monospace;
+    font-size: larger;
 }
